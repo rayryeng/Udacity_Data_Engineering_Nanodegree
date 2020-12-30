@@ -124,7 +124,11 @@ We must first initialize our database and tables on Redshift. Running
 Once we have completed the above steps, we must run the `etl.py` file in the
 terminal: `python etl.py`. This accomplishes the two-fold process of loading the
 raw data into staging tables, then transitioning over to the final data model.
-This is all done on Amazon Redshift.
+This is all done on Amazon Redshift which carries out our ETL pipeline.
+Please note that at the time that this project was completed, the full dataset
+available from Udacity took between 10-20 minutes using a `d2c.large` Redshift
+cluster with 4 cores. Keep this timeframe in mind should you attempt to execute
+the ETL pipeline.
 
 ## 3. Verify accuracy
 
