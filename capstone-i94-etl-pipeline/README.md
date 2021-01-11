@@ -25,7 +25,8 @@ pipeline and data quality checks.
   AWS credentials. The `dwh.cfg` is for you to fill out with the proper
   information so that the notebook can complete the connection to AWS and
   transfer the dataframes over to Redshift as tables. Have a look at the
-  _Moving the data onto Redshift_ section of the notebook for more details.
+  _Moving the data onto Redshift_ section of the notebook for more details. The
+  file is intentionally blank on purpose due to its sensitive nature.
 
 - You will require installing the
   [`pandas-redshift`](https://github.com/agawronski/pandas_redshift) helper
