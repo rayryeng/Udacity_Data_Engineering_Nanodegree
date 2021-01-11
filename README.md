@@ -38,3 +38,23 @@ to perform, which is actually loading the data onto the fact and dimension
 tables that were designed for future analyses of the songs and users as per
 Project #1. The accompanying README provides a further summary of the project,
 as well as a description of how to run the project from end to end.
+
+# Project 4 - Data Lake with Amazon EMR Cluster
+
+The same fictional startup Sparkify would now like to use a data lake and AWS
+to build an ETL Pipeline to migrate an existing on-prem database over to the
+cloud. The data is already loaded into S3 so that we can properly use the raw
+data to extract what we need and allow Spark to do the heavy lifting in
+bringing the data over to our fact and dimension tables to finally get
+transferred over to the final data model we have in place. This will allow us
+to finally perform the required analytics we intend to perform long-term.
+
+# Project 5 - Data Pipelines with Airflow
+
+The same fictional company, Sparkify, has decided that it is time to introduce
+more automation and monitoring to their data warehouse ETL pipelines and come to
+the conclusion that the best tool to achieve this is Apache Airflow. In
+particular, we will create high grade data pipelines that are dynamic and
+built from reusable tasks, can be monitored, and allow easy backfills. The
+source data resides in S3 and needs to be processed in Sparkify's data warehouse
+in Amazon Redshift. The source datasets consist of JSON logs that tell about user activity in the application and JSON metadata about the songs the users listen to.
